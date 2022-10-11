@@ -7,7 +7,9 @@ http
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Access-Control-Allow-Origin', '*');
     url = 'https://data.cdc.gov/resource/muzy-jte6.json?$limit=3'
+    console.log('server started')
     axios.get(url).then(x => {
+      console.log('data retrieved')
       res.end('hello proxy')
     })
   }).listen(3000); //the server object listens on port 8080
