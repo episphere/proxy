@@ -1,5 +1,5 @@
 {
-  "name": "proxy-1",
+  "name": "proxy",
   "version": "1.0.0",
   "description": "a generic nodejs proxy",
   "main": "server.js",
@@ -23,7 +23,7 @@
     "url": "git+https://github.com/episphere/proxy.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jonas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/episphere/proxy/issues"
