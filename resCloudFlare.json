@@ -1,4 +1,4 @@
 {
-    proxyHost:"floudflare",
-    msg:"url not provided or not supported"
+    "proxyHost":"floudflare",
+    "msg":"url not provided or not supported"
 }
